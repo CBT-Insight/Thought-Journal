@@ -3,6 +3,7 @@ body {
   line-height: 1.6;
   margin: 0;
   padding: 0;
+  color: #FFF;
   background-color: #204A72;
 }
 
@@ -17,6 +18,7 @@ main {
   max-width: 800px;
   margin: 20px auto;
   padding: 20px;
+  color: #FFF;
   background-color: #204A72;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
