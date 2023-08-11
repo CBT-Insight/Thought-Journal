@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT Thought Journal App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>CBT Thought Journal</h1>
+    </header>
+
+    <main>
+        <section id="thought-entry">
+            <form id="thought-form">
+                <label for="thought-input">Record your thought:</label>
+                <textarea id="thought-input" required></textarea>
+                <button type="submit">Add Thought</button>
+            </form>
+          <p class="instructions">Click the "Reframe" button next to a thought to challenge and reframe it into a more balanced and rational perspective.</p>
+        </section>
+
+        <section id="thought-list">
+            <h2>Recorded Thoughts:</h2>
+            <ul id="thoughts-list"></ul>
+        </section>
+    </main>
+  <section id="distortion-info">
+        <h2>Understanding Cognitive Distortions:</h2>
+        <ul>
+            <li>
+                <strong>All-or-Nothing Thinking:</strong> Seeing things in black and white, with no middle ground. You view situations as all good or all bad, without considering the shades of gray.
+            </li>
+            <li>
+                <strong>Catastrophizing:</strong> Exaggerating the negative aspects of a situation and expecting the worst possible outcome, even when it's unlikely to happen.
+            </li>
+            <li>
+                <strong>Mind-Reading:</strong> Assuming you know what others are thinking or feeling without sufficient evidence, often leading to misinterpretations.
+            </li>
+           <li>
+                <strong>Overgeneralization:</strong> Drawing broad negative conclusions based on one or a few isolated incidents.
+            </li>
+            <li>
+                <strong>Labeling:</strong> Using negative labels to describe oneself or others based on mistakes or behavior.
+            </li>
+            <li>
+                <strong>Personalization:</strong> Taking responsibility for events or situations that are beyond one's control.
+            </li>
+            <li>
+                <strong>Discounting the Positive:</strong> Minimizing or ignoring positive experiences or qualities and focusing only on the negative.
+            </li>
+            <li>
+                <strong>Emotional Reasoning:</strong> Believing that feelings reflect objective reality.
+            </li>
+            <li>
+                <strong>Should Statements:</strong> Using "should," "must," or "ought to" statements that create unrealistic expectations for oneself or others.
+            </li>
+            <li>
+                <strong>Fortune Telling:</strong> Predicting negative outcomes with certainty, even when there's no evidence to support it.
+            </li>
+            <li>
+                <strong>Magnification and Minimization:</strong> Exaggerating the importance of negative events (magnification) or minimizing the importance of positive events (minimization).
+            </li>
+            <li>
+                <strong>Control Fallacies:</strong> Believing that one is either completely powerless or entirely responsible for everything that happens.
+            </li>
+            <!-- Add more cognitive distortions and explanations here if needed -->
+        </ul>
+    </section><footer>
+        <p class="disclaimer">
+            Disclaimer: This app is intended for informational purposes only and is not a substitute for professional therapy or medical advice. The app may not detect all cognitive distortions accurately. If you have concerns about your mental health, please consult with a qualified mental health professional.
+        </p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
